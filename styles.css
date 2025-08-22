@@ -93,12 +93,12 @@ img{
     align-items: center;
 }
 
-#contacts, #skills, #tools {
+#contacts, #skills, #tools, #PM-tools{
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-#contacts span, #skills span, #tools span {
+#contacts span, #skills span, #tools span, #PM-tools span {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -133,7 +133,7 @@ img{
 
 .uni {
   margin: 0;
-  font-size: 23px;
+  font-size: 20px;
 }
 .degree {
   font-size:18px;
