@@ -141,9 +141,10 @@ img{
 }
 
 #personalProjects {
-  margin-top: 24px;
-  padding: 16px 18px;
+  margin-top: 10px;
+  padding-top: 10px;
   border-radius: 10px;
+
 }
 
 
@@ -180,5 +181,4 @@ img{
   color: #fff;
   background: linear-gradient(135deg, #0055aa, #003366);
 }
-
 
