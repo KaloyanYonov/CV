@@ -105,6 +105,9 @@ img{
 }
 
 
+
+
+
 @media (max-width: 600px) {
   .wrapper {
     flex-direction: column;
@@ -146,6 +149,24 @@ img{
   border-radius: 10px;
 
 }
+#ts {
+  width: 14px;         
+  height: 14px;
+  object-fit: contain; 
+  display: block;
+  border-radius: 0.5px;     
+  filter: brightness(1.05) contrast(1.1); 
+}
+
+#skills span img#ts {
+  margin-right: 1px;
+}
+
+#tsSpan {
+  padding-right: 201.6px;
+}
+
+
 
 
 #personalProjects a {
@@ -181,4 +202,6 @@ img{
   color: #fff;
   background: linear-gradient(135deg, #0055aa, #003366);
 }
+
+
 
