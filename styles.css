@@ -5,6 +5,14 @@ body {
   padding: 0;
   background: linear-gradient(45deg, #e0e0e0, #d0d0dc);
 }
+
+#experience {
+
+  display: flex;
+  flex-direction: column;
+  gap : 5px;
+}
+
 #experience h2 {
   margin: 0 0 10px 0;
   padding-bottom: 5px;
@@ -25,6 +33,10 @@ body {
 
 #experience .experienceItem p {
   margin: 0;
+}
+
+#experience .expDescription {
+  margin-top: 8px;
 }
 
 #experience #vention {
@@ -192,6 +204,26 @@ img{
 
 #skills span img#ts {
   margin-right: 1px;
+}
+
+#nestjs {
+  width: 15px;
+  height: 15px;
+  padding-left: 3.5px;
+  object-fit: contain;
+  display: block;
+  margin: 0;
+  border-radius: 0.5px;
+}
+
+#nextjs {
+  width: 15px;
+  height: 15px;
+  padding-left: 3.5px;
+  object-fit: contain;
+  display: block;
+  margin: 0;
+  border-radius: 0.5px;
 }
 
 #tsSpan {
