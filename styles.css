@@ -53,9 +53,9 @@ body {
 #info {
   margin: 20px 0px 20px 0px;
   padding: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #a9a8a8;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #eaeff4;
 }
 #info h4 {
   margin: 6px 0;
@@ -180,7 +180,7 @@ img{
 
 .uni {
   margin: 0;
-  font-size: 20px;
+  font-size: 24px;
 }
 .degree {
   font-size:18px;
@@ -189,45 +189,17 @@ img{
 
 #personalProjects {
   margin-top: 10px;
-  padding-top: 10px;
   border-radius: 10px;
 
 }
-#ts {
-  width: 14px;         
-  height: 14px;
-  object-fit: contain; 
-  display: block;
-  border-radius: 0.5px;     
-  filter: brightness(1.05) contrast(1.1); 
-}
-
-#skills span img#ts {
-  margin-right: 1px;
-}
-
-#nestjs {
-  width: 15px;
-  height: 15px;
-  padding-left: 3.5px;
+.icon-img {
+  width: 20px;
+  height: 16px;
   object-fit: contain;
   display: block;
   margin: 0;
-  border-radius: 0.5px;
-}
-
-#nextjs {
-  width: 15px;
-  height: 15px;
-  padding-left: 3.5px;
-  object-fit: contain;
-  display: block;
-  margin: 0;
-  border-radius: 0.5px;
-}
-
-#tsSpan {
-  padding-right: 201.6px;
+  padding: 0;
+  border-radius: 0;
 }
 
 
