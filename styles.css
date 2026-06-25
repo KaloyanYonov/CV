@@ -51,17 +51,29 @@ body {
 
 
 #info {
-  margin: 20px 0px 20px 0px;
-  padding: 15px;
-  border: 1px solid #a9a8a8;
-  border-radius: 8px;
-  background-color: #eaeff4;
+  margin-top: 20px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
-#info h4 {
-  margin: 6px 0;
-  font-weight: 500;
-  font-size: 15px;
-  text-align: center;
+
+#info .info-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #003366;
+  border: 1px solid #d7e2f1;
+  background: linear-gradient(135deg, #eef4ff, #f9fbff);
+}
+
+#info .info-pill i {
+  color: #0055aa;
 }
 
 
@@ -114,12 +126,6 @@ h4 {
   padding-top : 20px;
 }
 
-#info > *{
-  margin: 10px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .rightSide {
   width: 77%;
@@ -180,10 +186,10 @@ img{
 
 .uni {
   margin: 0;
-  font-size: 24px;
+  font-size: 22px;
 }
 .degree {
-  font-size:18px;
+  font-size:16px;
   margin-top : 0.5rem;
 }
 
